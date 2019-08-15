@@ -22,7 +22,7 @@ import warnings
 import numpy as np  # Tested with 1.8.0
 from os import makedirs
 from os import path
-from scipy.misc import logsumexp  # Tested with 0.13.0
+from scipy.special import logsumexp  # Tested with 0.13.0
 import scipy.sparse as ss
 from six import string_types # For Python 2&3 compatible string checking
 from sklearn.externals import joblib
